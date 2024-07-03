@@ -18,7 +18,7 @@ def main():
     longest = shortest = words[0]
     i = len(words)
         
-    for j in range(i):
+    for j in range(1, i):
         word = words[j]
         if len(word) > len(longest):
             longest = word
